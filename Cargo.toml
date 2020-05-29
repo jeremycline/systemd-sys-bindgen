@@ -1,0 +1,16 @@
+[package]
+name = "systemd-sys-bindgen"
+version = "0.1.0"
+authors = ["Jeremy Cline <jeremy@jcline.org>"]
+edition = "2018"
+description = "Rust bindings for libsystemd generated via bindgen"
+keywords = ["systemd", "bindgen"]
+categories = ["external-ffi-bindings"]
+license = "LGPLv2.1"
+readme = "README.md"
+repository = "https://github.com/jeremycline/systemd-sys-bindgen"
+
+[dependencies]
+
+[build-dependencies]
+bindgen = "0.54"
